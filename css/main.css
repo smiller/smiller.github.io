@@ -4,11 +4,14 @@
  * //////////////
  */
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
     color: #424242;
 }
 
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
 /**
  * //////////////////////////
  * Font and link declarations
@@ -107,6 +110,7 @@ footer div#github {
 
 div.right h1 {
 	margin-bottom: -2px;
+        font-size: 33px; 
 }
 
 div.right ul {
@@ -131,27 +135,28 @@ div.right .post ul {
  * Left column aka nav bar formatting
  * ///////////////////////////////////
  */
-div.left {
-        width: 150px;
-        margin-right: 40px;
+div.col-sm-3 {
         margin-top: 100px;
-        float: left;
         font-size: 11px;
         color: #666;
 }
 
-div.left strong {
+div.col-sm-3 strong {
         font-size: 16px;
         color: #4A4A4A;
         font-weight: normal;
 }
 
-div.left div#about {
+div.col-sm-3 h1 {
+        font-size: 30px;
+}
+
+div.col-sm-3 div#about {
         margin-top: 10px;
 		color: #8C8C8C;
 }
 
-div.left img#about {
+div.col-sm-3 img#about {
     -webkit-border-radius: 150px;
     margin-bottom: 10px;
     margin-left: auto;

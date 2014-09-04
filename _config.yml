@@ -1,10 +1,12 @@
-name: Simply Grey
+name: The Wandering Coder
 markdown: redcarpet
-pygments: true
-github: https://www.github.com/exaem
-about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
+github: https://www.github.com/smiller
+about: Software developer, avid reader, occasional writer, and sometime mediaevalist.
+excerpt_separator: ""
 urls:
     - text: github
-      url: https://github.com/exaem
+      url: https://github.com/smiller
+    - text: twitter
+      url: https://twitter.com/seanmiller_ca
     - text: email
-      url: mailto:exaem@exaem.co.uk
+      url: mailto:sean@seanmiller.ca
