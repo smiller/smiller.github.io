@@ -7,3 +7,7 @@ layout: default
 <div class="content">
 	<div class="post">{{ content }}</div>
 </div>
+
+{% if page.categories %}
+<b>Tags:</b> {{ page.categories }}
+{% endif %}
