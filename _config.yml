@@ -6,6 +6,8 @@ excerpt_separator: ""
 urls:
     - text: github
       url: https://github.com/smiller
+    - text: weird cultural sean stuff
+      url: http://weird-cultural-sean-stuff.ca
     - text: twitter
       url: https://twitter.com/seanmiller_ca
     - text: email
