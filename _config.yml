@@ -12,3 +12,7 @@ urls:
       url: https://twitter.com/seanmiller_ca
     - text: email
       url: mailto:sean@seanmiller.ca
+    - text: resume (in a nutshell)
+      url: SeanMiller_resume_just_ruby.pdf
+    - text: resume (in two pages)
+      url: SeanMiller_resume_ruby_and_java.pdf
