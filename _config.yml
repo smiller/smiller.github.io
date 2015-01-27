@@ -1,4 +1,6 @@
 name: The Wandering Coder
+description: Sean Miller’s tech blog
+url: http://blog.thewanderingcoder.com
 markdown: redcarpet
 github: https://www.github.com/smiller
 about: Software developer, avid reader, occasional writer, and sometime mediaevalist.
